@@ -2,9 +2,9 @@
 Este software abre uma imagem na tela utilizando a função "imshow"
 do opencv-python.
 
-import cv2 as cv -> Impota a bibiloteca opencv, e a apelida de cv.
+import cv2 as cv -> Importa a bibiloteca opencv, e a apelida de cv.
 
-img = cv.imread("Endereço da imagem/imagem.extenção") -> Lê a imagem no endereço contido entre aspas e parênteses, e a deposita na variável img.
+img = cv.imread("Endereço da imagem/imagem.extenção") -> Lê a imagem no endereço contido entre parênteses e aspas, e a deposita na variável img.
 
 cv.imshow("Imagem Original", img) -> Exibe a imagem.
 
